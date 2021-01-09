@@ -102,3 +102,21 @@ dist
 
 # TernJS port file
 .tern-port
+
+# xpm
+xpacks/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# Eclipse
+.settings/
+Debug/
+Release/
+test-*/
+build/
+
+# end
