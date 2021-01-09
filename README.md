@@ -1,2 +1,2 @@
-# github-template-xpack
-A GitHub template to ease the creation of source xPack projects with original or 3rd party content
+This project does not use the `master` branch, please
+switch to the `xpack` branch to get the project files.
