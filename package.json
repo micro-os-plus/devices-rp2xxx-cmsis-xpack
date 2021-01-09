@@ -1,0 +1,30 @@
+{
+  "name": "@<scope>/<project-name>",
+  "version": "0.1.0",
+  "description": "A source/binary xPack with <your-description-here>",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<user-id>/<project-name>-xpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<user-id>/<project-name>-xpack/issues"
+  },
+  "homepage": "https://github.com/<user-id>/<project-name>-xpack",
+  "keywords": [
+    "xpack"
+  ],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "https://github.com/ilg-ul/"
+  },
+  "license": "MIT",
+  "config": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "xpack": {}
+}
