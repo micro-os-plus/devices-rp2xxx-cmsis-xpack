@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<user-id>/<project-name>-xpack.git"
+    "url": "git+https://github.com/<organization>/<project-name>-xpack.git"
   },
   "bugs": {
-    "url": "https://github.com/<user-id>/<project-name>-xpack/issues"
+    "url": "https://github.com/<organization>/<project-name>-xpack/issues/"
   },
-  "homepage": "https://github.com/<user-id>/<project-name>-xpack",
+  "homepage": "https://github.com/<organization>/<project-name>-xpack/",
   "keywords": [
     "xpack"
   ],

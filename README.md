@@ -1,8 +1,8 @@
-[![license](https://img.shields.io/github/license/<scope>/<name>-xpack)](https://github.com/<scope>/<name>-xpack/blob/xpack/LICENSE)
+[![license](https://img.shields.io/github/license/<scope>/<project-name>-xpack)](https://github.com/<organization>/<project-name>-xpack/blob/xpack/LICENSE)
 
-# A source/binary xPack with _your content here_
+# A source/binary xPack with <your-description-here>
 
-This project includes files ...
+This project includes files <TODO>.
 
 This README is intended to developers who plan to include this package
 in their own projects.
@@ -12,19 +12,20 @@ For maintainer infos, please see the [README-MAINTAINER](README-MAINTAINER.md) f
 ## Easy install
 
 This package is available as
-[`@<scope>/<name>`](https://www.npmjs.com/package/@<scope>/<name>)
+[`@<scope>/<project-name>`](https://www.npmjs.com/package/@<scope>/<project-name>)
 from the `npmjs.com` registry; with [xpm](https://xpack.github.io/xpm/)
 available, installing the latest version of the package is quite easy:
 
 ```console
-$ xpm install @<scope>/<name>@latest
+$ cd <project>
+$ xpm install @<scope>/<project-name>@latest
 ```
 
 This package is also available from
-[GitHub](https://github.com/<scope>/<name>-xpack):
+[GitHub](https://github.com/<organization>/<project-name>-xpack):
 
 ```console
-$ git clone https://github.com/<scope>/<name>-xpack.git <name>-xpack.git
+$ git clone https://github.com/<organization>/<project-name>-xpack.git <project-name>-xpack.git
 ```
 
 ## Branches
