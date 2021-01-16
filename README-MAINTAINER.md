@@ -1,6 +1,6 @@
-[![license](https://img.shields.io/github/license/<organization>/<project-name>-xpack)](https://github.com/<organization>/<project-name>-xpack/blob/xpack/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/<organization>/<project-name>-xpack.svg)](https://github.com/<organization>/<project-name>-xpack/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/<organization>/<project-name>-xpack.svg)](https://github.com/<organization>/<project-name>-xpack/pulls)
+[![license](https://img.shields.io/github/license/micro-os-plus/<project-name>-xpack)](https://github.com/micro-os-plus/<project-name>-xpack/blob/xpack/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/micro-os-plus/<project-name>-xpack.svg)](https://github.com/micro-os-plus/<project-name>-xpack/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/micro-os-plus/<project-name>-xpack.svg)](https://github.com/micro-os-plus/<project-name>-xpack/pulls)
 
 # Maintainer info
 
@@ -8,12 +8,12 @@
 
 The project is hosted on GitHub:
 
-- https://github.com/<organization>/<project-name>-xpack.git
+- https://github.com/micro-os-plus/<project-name>-xpack.git
 
 To clone it:
 
 ```
-git clone https://github.com/<organization>/<project-name>-xpack.git template-xpack.git
+git clone https://github.com/micro-os-plus/<project-name>-xpack.git <project-name>-xpack.git
 ```
 
 ## Prerequisites
@@ -36,7 +36,7 @@ A recent [xpm](https://xpack.github.io/xpm/), which is a portable
 
 The version is visible at:
 
-- https://www.npmjs.com/package/@<scope>/<project-name>?activeTab=versions
+- https://www.npmjs.com/package/@micro-os-plus/<project-name>?activeTab=versions
 
 ## Test
 
@@ -54,9 +54,9 @@ When the package is considered stable:
 
 When the release is considered stable, promote it as `latest`:
 
-- `npm dist-tag ls @<scope>/<project-name>`
-- `npm dist-tag add @<scope>/<project-name>@1.2.3 latest`
-- `npm dist-tag ls @@<scope>/<project-name>`
+- `npm dist-tag ls @micro-os-plus/<project-name>`
+- `npm dist-tag add @micro-os-plus/<project-name>@1.2.3 latest`
+- `npm dist-tag ls @@micro-os-plus/<project-name>`
 
 ## Announce to the community
 
