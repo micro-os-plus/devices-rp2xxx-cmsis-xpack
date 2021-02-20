@@ -1,7 +1,7 @@
-[![license](https://img.shields.io/github/license/micro-os-plus/<project-name>-xpack)](https://github.com/micro-os-plus/<project-name>-xpack/blob/xpack/LICENSE)
-[![CI on Push](https://github.com/micro-os-plus/<project-name>-xpack/workflows/CI%20on%20Push/badge.svg)](https://github.com/micro-os-plus/<project-name>-xpack/actions?query=workflow%3A%22CI+on+Push%22)
-[![GitHub issues](https://img.shields.io/github/issues/micro-os-plus/<project-name>-xpack.svg)](https://github.com/micro-os-plus/<project-name>-xpack/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/micro-os-plus/<project-name>-xpack.svg)](https://github.com/micro-os-plus/<project-name>-xpack/pulls)
+[![license](https://img.shields.io/github/license/micro-os-plus/devices-rp2xxx-cmsis-xpack)](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack/blob/xpack/LICENSE)
+[![CI on Push](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack/workflows/CI%20on%20Push/badge.svg)](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack/actions?query=workflow%3A%22CI+on+Push%22)
+[![GitHub issues](https://img.shields.io/github/issues/micro-os-plus/devices-rp2xxx-cmsis-xpack.svg)](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/micro-os-plus/devices-rp2xxx-cmsis-xpack.svg)](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack/pulls)
 
 # Maintainer info
 
@@ -9,12 +9,12 @@
 
 The project is hosted on GitHub:
 
-- https://github.com/micro-os-plus/<project-name>-xpack.git
+- https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack.git
 
 To clone it:
 
 ```sh
-git clone https://github.com/micro-os-plus/<project-name>-xpack.git <project-name>-xpack.git
+git clone https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack.git devices-rp2xxx-cmsis-xpack.git
 ```
 
 ## Prerequisites
@@ -33,14 +33,14 @@ CppStyle plug-in.
 In the `micro-os-plus/web-jekyll` GitHub repo:
 
 - select the `develop` branch
-- add a new file to `_posts/<project-name>/releases`
-- name the file like `2020-12-19-<project-name>-v0-1-0-released.md`
-- name the post like: **µOS++ <project-name> v0.1.0 released**
+- add a new file to `_posts/devices-rp2xxx-cmsis/releases`
+- name the file like `2020-12-19-devices-rp2xxx-cmsis-v0-1-0-released.md`
+- name the post like: **µOS++ devices-rp2xxx-cmsis v0.1.0 released**
 - update the `date:` field with the current date
 - update the GitHub Actions URLs using the actual test pages
 
 If any, refer to closed
-[issues](https://github.com/micro-os-plus/<project-name>/issues)
+[issues](https://github.com/micro-os-plus/devices-rp2xxx-cmsis/issues)
 as:
 
 - **[Issue:\[#1\]\(...\)]**.
@@ -60,7 +60,7 @@ as:
 
 The version is visible at:
 
-- https://www.npmjs.com/package/@micro-os-plus/<project-name>?activeTab=versions
+- https://www.npmjs.com/package/@micro-os-plus/devices-rp2xxx-cmsis?activeTab=versions
 
 ## Testing
 
@@ -69,7 +69,7 @@ The project includes unit tests.
 To run them, run:
 
 ```sh
-cd <project-name>-xpack.git
+cd devices-rp2xxx-cmsis-xpack.git
 xpm run install-all
 xpm run test
 ```
@@ -77,7 +77,7 @@ xpm run test
 ## Continuous Integration
 
 All available tests are also performed on GitHub Actions, as the
-[CI on Push](https://github.com/micro-os-plus/<project-name>-xpack/actions?query=workflow%3A%22CI+on+Push%22)
+[CI on Push](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack/actions?query=workflow%3A%22CI+on+Push%22)
 workflow.
 
 ## Update the repo
@@ -93,9 +93,9 @@ When the package is considered stable:
 
 When the release is considered stable, promote it as `latest`:
 
-- `npm dist-tag ls @micro-os-plus/<project-name>`
-- `npm dist-tag add @micro-os-plus/<project-name>@0.1.0 latest`
-- `npm dist-tag ls @@micro-os-plus/<project-name>`
+- `npm dist-tag ls @micro-os-plus/devices-rp2xxx-cmsis`
+- `npm dist-tag add @micro-os-plus/devices-rp2xxx-cmsis@0.1.0 latest`
+- `npm dist-tag ls @@micro-os-plus/devices-rp2xxx-cmsis`
 
 ## Announce to the community
 
@@ -105,6 +105,6 @@ Post an announcement to the forum.
 
 - in a separate browser windows, open [TweetDeck](https://tweetdeck.twitter.com/)
 - using the `@micro_os_plus` account
-- paste the release name like **µOS++ <project-name> v0.1.0 released**
+- paste the release name like **µOS++ devices-rp2xxx-cmsis v0.1.0 released**
 - paste the link to the Web page release
 - click the **Tweet** button

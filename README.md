@@ -1,11 +1,11 @@
-[![license](https://img.shields.io/github/license/micro-os-plus/<project-name>-xpack)](https://github.com/micro-os-plus/<project-name>-xpack/blob/xpack/LICENSE)
+[![license](https://img.shields.io/github/license/micro-os-plus/devices-rp2xxx-cmsis-xpack)](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack/blob/xpack/LICENSE)
 
 # A source xPack with <your-description-here>
 
 This xxx project provides ....
 
 The project is hosted on GitHub as
-[micro-os-plus/<project-name>-xpack](https://github.com/micro-os-plus/<project-name>-xpack).
+[micro-os-plus/devices-rp2xxx-cmsis-xpack](https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack).
 
 ## Maintainer info
 
@@ -38,18 +38,18 @@ For now, it can be installed from GitHub:
 $ cd <project>
 $ xpm init # Unless a package.json is already present
 
-$ xpm install github:micro-os-plus/<project-name>-xpack
+$ xpm install github:micro-os-plus/devices-rp2xxx-cmsis-xpack
 ```
 
 When ready, this package will be available as
-[`@micro-os-plus/<project-name>`](https://www.npmjs.com/package/@micro-os-plus/<project-name>)
+[`@micro-os-plus/devices-rp2xxx-cmsis`](https://www.npmjs.com/package/@micro-os-plus/devices-rp2xxx-cmsis)
 from the `npmjs.com` registry:
 
 ```console
 $ cd <project>
 $ xpm init # Unless a package.json is already present
 
-$ xpm install @micro-os-plus/<project-name>@latest
+$ xpm install @micro-os-plus/devices-rp2xxx-cmsis@latest
 ```
 
 ### Git submodule
@@ -62,8 +62,8 @@ $ cd <project>
 $ git init # Unless already a Git project
 $ mkdir -p xpacks
 
-$ git submodule add https://github.com/micro-os-plus/<project-name>-xpack.git \
-  xpacks/micro-os-plus-<project-name>
+$ git submodule add https://github.com/micro-os-plus/devices-rp2xxx-cmsis-xpack.git \
+  xpacks/micro-os-plus-devices-rp2xxx-cmsis
 ```
 
 ## Branches
